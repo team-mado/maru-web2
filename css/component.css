@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* キャッチが横から登場 */
+.Headline {
+  -webkit-animation: SlideIn 1.6s infinite;
+          animation: SlideIn 1.6s infinite;
+}
+
+@-webkit-keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.simple_square_btn1 {
+  display: block;
+  position: relative;
+  width: 150px;
+  padding: 0.8em;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00a6d9;
+  border-radius: 30px;
+}
+
+.simple_square_btn1 .simple_square_btn1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.top-box {
+  width: 290px;
+  background-color: #004c88;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-box h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #00a6d9;
+}
+
+.button-box {
+  text-align: center;
+  width: 300px;
+}
+
+.button-box bottom {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Noto Sans JP", 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans Japanese", Meiryo, sans-serif;
+}
+
+.top-logo {
+  width: 312px;
+  margin-top: -45px;
+}
+
+.all-logo {
+  width: 312px;
+}
+
+.pw-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=component.css.map */
