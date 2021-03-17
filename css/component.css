@@ -35,7 +35,8 @@
 
 .simple_square_btn1 {
   width: 190px;
-  padding: 0.8em;
+  margin: 0.8em;
+  margin: 10px;
   margin-top: 10px;
   text-align: center;
   text-decoration: none;
@@ -54,34 +55,35 @@
 main {
   width: 100%;
   margin: 0 auto;
+  max-width: 600px;
 }
 
-.top-box {
-  width: 80%;
-  background-color: #004c88;
-  border-radius: 10px;
-  color: white;
-  padding: 10px;
-  text-align: center;
+main .gray-box {
+  width: 100%;
 }
 
-.top-box h2 {
+main h2 {
   font-size: 15px;
   font-weight: bold;
+  color: #004c88;
 }
 
-h1 {
+main h1 {
   font-size: 19px;
   font-weight: bold;
   color: #00a6d9;
 }
 
-.button-box {
+main .button-box {
   text-align: center;
 }
 
-.button-box bottom {
+main .button-box bottom {
   margin: 0 auto;
+}
+
+main .pw-text {
+  margin-top: -10px;
 }
 
 body {
