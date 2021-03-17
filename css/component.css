@@ -36,17 +36,17 @@
 .simple_square_btn1 {
   display: block;
   position: relative;
-  width: 150px;
+  width: 190px;
   padding: 0.8em;
   margin-top: 10px;
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #00a6d9;
+  background: #00a6d9;
   border-radius: 30px;
 }
 
-.simple_square_btn1 .simple_square_btn1:hover {
+.simple_square_btn1:hover {
   opacity: 0.8;
   cursor: pointer;
   text-decoration: none;
@@ -54,7 +54,7 @@
 }
 
 .top-box {
-  width: 290px;
+  width: 80%;
   background-color: #004c88;
   border-radius: 10px;
   color: white;
@@ -87,12 +87,12 @@ body {
 }
 
 .top-logo {
-  width: 312px;
+  width: 90%;
   margin-top: -45px;
 }
 
 .all-logo {
-  width: 312px;
+  width: 90%;
 }
 
 .pw-text {
