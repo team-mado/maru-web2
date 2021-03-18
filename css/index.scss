@@ -1,7 +1,12 @@
-main {
+body {
   width: 100%;
+  text-align: center;
+}
+
+main {
   margin: 0 auto;
   max-width: 600px;
+  text-align: left;
 
   .gray-box {
     width: 100%;
@@ -20,6 +25,7 @@ main {
   }
 
   .button-box {
+    width: 100%;
     text-align: center;
     bottom {
       margin: 0 auto;

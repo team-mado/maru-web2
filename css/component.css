@@ -52,10 +52,15 @@
   border-radius: 30px;
 }
 
-main {
+body {
   width: 100%;
+  text-align: center;
+}
+
+main {
   margin: 0 auto;
   max-width: 600px;
+  text-align: left;
 }
 
 main .gray-box {
@@ -75,6 +80,7 @@ main h1 {
 }
 
 main .button-box {
+  width: 100%;
   text-align: center;
 }
 
@@ -91,12 +97,11 @@ body {
 }
 
 .top-logo {
-  width: 90%;
-  margin-top: -45px;
+  width: 100%;
 }
 
 .all-logo {
-  width: 90%;
+  width: 100%;
 }
 
 .pw-text {
