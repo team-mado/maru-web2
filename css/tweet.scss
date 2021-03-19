@@ -5,7 +5,10 @@ body {
   text-align: center;
 }
 
-main {
+h1 {
+  font-size: 30px;
+  color: #00a6d9;
+
   max-width: 600px;
   /* なぜか横幅と下2行を入れないとならず */
   margin: 0 auto;
