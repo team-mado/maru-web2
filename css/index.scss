@@ -10,6 +10,10 @@ main {
 
   .gray-box {
     width: 100%;
+    background: gray;
+    .top-logo {
+      width: 300px;
+    }
   }
 
   h2 {

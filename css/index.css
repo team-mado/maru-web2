@@ -11,6 +11,11 @@ main {
 
 main .gray-box {
   width: 100%;
+  background: gray;
+}
+
+main .gray-box .top-logo {
+  width: 300px;
 }
 
 main h2 {
