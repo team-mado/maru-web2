@@ -11,7 +11,7 @@ main {
 
 main .gray-box {
   width: 100%;
-  background: gray;
+  background-color: #e5e5e5;
 }
 
 main .gray-box .top-logo {
