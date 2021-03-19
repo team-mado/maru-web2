@@ -65,6 +65,11 @@ main {
 
 main .gray-box {
   width: 100%;
+  background: gray;
+}
+
+main .gray-box .top-logo {
+  width: 300px;
 }
 
 main h2 {
@@ -113,6 +118,15 @@ header .home-logo {
 
 a {
   text-decoration: none;
+}
+
+.button-box {
+  width: 100%;
+}
+
+.button-box img {
+  height: 40px;
+  margin: 5px;
 }
 
 .all-logo {
