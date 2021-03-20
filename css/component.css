@@ -66,6 +66,15 @@ main {
 main .gray-box {
   width: 100%;
   background-color: #d4d6d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main .gray-box .top-logo {
@@ -95,6 +104,29 @@ main .button-box bottom {
 
 main .pw-text {
   margin-top: -10px;
+}
+
+/*loginエリアをはじめは非表示*/
+#login {
+  display: none;
+}
+
+/*モーダルの横幅を変更したい場合*/
+.modaal-container {
+  max-width: 375px;
+}
+
+/*モーダルのボタンの色を変更したい場合*/
+.modaal-close:after,
+.modaal-close:before {
+  background: #ccc;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+  background: #666;
 }
 
 body {
