@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   width: 100%;
   text-align: center;
@@ -54,26 +53,19 @@ main .pw-text {
   margin-top: -10px;
 }
 
-/*loginエリアをはじめは非表示*/
-#login {
-  display: none;
-}
-
-/*モーダルの横幅を変更したい場合*/
-.modaal-container {
-  max-width: 375px;
-}
-
-/*モーダルのボタンの色を変更したい場合*/
-.modaal-close:after,
-.modaal-close:before {
-  background: #ccc;
-}
-
-.modaal-close:focus:after,
-.modaal-close:focus:before,
-.modaal-close:hover:after,
-.modaal-close:hover:before {
-  background: #666;
+.modal a.close-modal[class*="icon-"] {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  background: #900;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=index.css.map */
