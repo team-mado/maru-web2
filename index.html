@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/component.css" />
     <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- モーダル用CSS -->
+        <link rel="stylesheet" href="css/modal.css" />
     <!-- Googleフォント -->
     <!-- Fon Awesome読込み -->
     <link
@@ -30,7 +32,7 @@
 
 
 <div class="button-box">
-        <href="#ex1" rel="modal:open"><input type="submit" value="ログイン" class="simple_square_btn1"></input></a>
+        <input type="submit" value="ログイン" class="simple_square_btn1"></input>
         <br />
         <a href="shinki.html"
           ><button class="simple_square_btn1">新規登録</button></a
@@ -50,13 +52,32 @@
       <img class="all-logo" src="img/sdgs-all.png" alt="" />
     </main>
 
-<div id="ex1" class="modal">
+<!-- <div id="ex1" class="modal">
   <p>Thanks for clicking. That felt good.</p>
   <a href="#" rel="modal:close">Close</a>
-</div>
+</div> -->
+
+<!-- モーダルウィンドウCSSのみ -->
+<section class="myModal">
+  <input id="myModal_open" type="radio" name="myModal_switch" />
+  <label for="myModal_open">開く</label>
+  <input id="myModal_close-overlay" type="radio" name="myModal_switch" />
+  <label for="myModal_close-overlay">オーバーレイで閉じる</label>
+  <input id="myModal_close-button" type="radio" name="myModal_switch" />
+  <label for="myModal_close-button"></label>
+  <div class="myModal_popUp">
+  <div class="myModal_popUp-content">
+    <p>本文</p>
+  </div>
+ </div>
+</section>
+<!-- モーダルここまで -->
+
+
+
 
 <!-- Link to open the modal -->
-<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+<!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
 
 
        <!-- ここから下、モーダル用のHTML -->
