@@ -1,7 +1,3 @@
-body {
-  -webkit-appearance: none;
-}
-
 .gray-box {
   width: 100%;
   height: 193px;
@@ -43,6 +39,9 @@ button {
 }
 
 .checkbox-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   max-width: 600px;
   /* なぜか横幅と下2行を入れないとならず */
   margin: 0 auto;

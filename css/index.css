@@ -28,19 +28,6 @@ main .gray-box .top-logo {
   width: 300px;
 }
 
-main h2 {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: bold;
-  color: #004c88;
-}
-
-main h1 {
-  font-size: 19px;
-  font-weight: bold;
-  color: #0099d9;
-}
-
 main .button-box {
   width: 100%;
   text-align: center;
